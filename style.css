@@ -1,5 +1,20 @@
 body {
-  background: #2C2141;
+  background-image: linear-gradient(
+    125deg,
+    hsl(261deg 42% 33%) 0%,
+    hsl(260deg 41% 30%) 1%,
+    hsl(260deg 40% 28%) 5%,
+    hsl(260deg 38% 26%) 13%,
+    hsl(260deg 37% 24%) 25%,
+    hsl(260deg 35% 21%) 40%,
+    hsl(261deg 33% 19%) 57%,
+    hsl(260deg 33% 18%) 72%,
+    hsl(260deg 33% 17%) 83%,
+    hsl(260deg 32% 16%) 91%,
+    hsl(260deg 32% 15%) 96%,
+    hsl(260deg 32% 14%) 99%,
+    hsl(260deg 32% 13%) 100%
+  );
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -12,7 +27,8 @@ body {
   background: #F8F8F8;
   border-radius: 16px;
   padding: 32px;
-  flex-basis: 616px;
+  flex-basis: 560px;
+  box-shadow: 8px 8px 24px 0px rgba(31, 31, 39, 1);
 }
 
 .card__content {
@@ -52,4 +68,8 @@ body {
   margin: 0;
   font-size: 18px;
   color: #545454;
+}
+
+.special {
+  color: #ED6D05;
 }
